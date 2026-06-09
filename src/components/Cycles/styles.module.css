@@ -40,15 +40,15 @@
 /* Cores específicas consumindo nosso tema global + Injeção de Neon Glow */
 .workTime {
   background: var(--warning);
-  box-shadow: 0 0 12px var(--warning); /* Faz o quadrado de foco brilhar em Amarelo */
+  box-shadow: 0 0 12px var(--warning); /* Faz o quadrado de foco brilhar em Verde Neon */
 }
 
 .shortBreakTime {
   background: var(--primary);
-  box-shadow: 0 0 12px var(--primary); /* Faz o descanso curto brilhar na cor principal */
+  box-shadow: 0 0 12px var(--primary); /* Faz o descanso curto brilhar em Amarelo Neon */
 }
 
 .longBreakTime {
   background: var(--info);
-  box-shadow: 0 0 12px var(--info); /* Faz o descanso longo brilhar em Ciano Neon */
+  box-shadow: 0 0 12px var(--info); /* Faz o descanso longo brilhar em Verde Neon */
 }

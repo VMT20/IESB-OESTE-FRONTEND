@@ -1,3 +1,5 @@
+/* src/styles/theme.css */
+
 :root {
   /* Escala de Cinza (Fundo escuro, texto claro - Vibe Night City) */
   --gray-100: #f4f4f5;
@@ -18,9 +20,9 @@
   --link-color: #39ff14; /* Verde Neon da Gola/Logo */
   --link-hover: #2db80d;
 
-  /* Status e Alertas */
+  /* Status e Alertas - 🎯 ALTERADO: Laranja removido, Verde Neon Injetado */
   --success: #39ff14; /* Verde Neon */
-  --warning: #ff8a00;
+  --warning: #39ff14; /* Primeiro bloco agora brilha em Verde Neon Cyberpunk */
   --error: #ff003c;   /* Vermelho Arasaka */
   --info: #39ff14;    /* Verde Neon */
 
@@ -28,8 +30,8 @@
   --text-over-primary: #000000;
   --text-over-primary-dark: #f4f4f5;
   --text-over-primary-light: #000000;
-  --text-over-success: #000000; /* Texto preto sobre o verde neon para dar leitura */
-  --text-over-warning: #000000;
+  --text-over-success: #000000; 
+  --text-over-warning: #000000; /* Texto preto sobre o verde neon para dar leitura */
   --text-over-error: #ffffff;
   --text-over-info: #000000;
 
@@ -58,9 +60,9 @@
   --text-muted: #3f3f46;
 
   /* =========================================================
-     🟢 TEMA CLARO DAVID MARTINEZ: Ativando o Verde EMS da Jaqueta
+     🟢 TEMA CLARO DAVID MARTINEZ: Inversão tática sem perder o Neon
      ========================================================= */
-  --primary: #00b34a;               /* Verde Neon ajustado para leitura perfeita no claro */
+  --primary: #00b34a;               /* Verde Neon ajustado para leitura no claro */
   --primary-light: #00cc55;
   --primary-dark: #008035;
   --text-over-primary: #ffffff;     /* Texto branco dentro do botão verde */
@@ -69,7 +71,7 @@
   --link-hover: #008035;
   
   --success: #00b34a;
-  --warning: #ff8a00;
+  --warning: #00b34a;               /* Laranja removido do tema claro também */
   --error: #ff003c;                 /* Mantém o Vermelho de Alerta */
   --text-over-error: #ffffff;
   --info: #00b34a;
